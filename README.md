@@ -18,7 +18,13 @@ UNet is a convolutional neural network architecture designed for biomedical imag
 <img src = "Images/Unet.png" width="100%">
 </div>
 
-## Evaluation metric
+## Dataset:
+
+* Training: 7191 pairs of Images and Masks
+* Validation: 3595 pairs of Images and Masks
+* Testing: 1198 pairs of Images and Masks
+
+## Evaluation metric:
 
 The Dice similarity coefficient, also known as Dice score or Dice index, is used as an evaluation metric in this project. It measures the similarity between two sets of data, often used to assess the performance of a segmentation algorithm by comparing the overlap between the predicted segmentation mask and the ground truth mask. The Dice score ranges from 0 to 1, where a score of 1 indicates perfect overlap between the predicted and ground truth masks, while a score of 0 indicates no overlap. It is defined as the ratio of twice the intersection of the predicted and ground truth masks to the sum of the sizes of both masks.
 
